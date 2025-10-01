@@ -1,6 +1,6 @@
 # layout_flutter
 
-A new Flutter project.
+A new Flutter project. Nimas Septiandini
 
 ## Getting Started
 
