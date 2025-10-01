@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Salar de Uyuni',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Altiplano, Bolivia, Amerika Selatan',
                   style: TextStyle(
                     color: Colors.grey[500],
                   ),
@@ -56,13 +56,17 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
-        'Carilah teks di internet yang sesuai '
-        'dengan foto atau tempat wisata yang ingin '
-        'Anda tampilkan. '
-        'Tambahkan nama dan NIM Anda sebagai '
-        'identitas hasil pekerjaan Anda. '
-        'Nimas Septiandini - 2341760087. '
-        'Selamat mengerjakan 🙂.',
+
+        'Salar de Uyuni adalah dataran garam terbesar di dunia, '
+        'terletak di barat daya Bolivia, dekat pegunungan Andes. '
+        'Dataran ini terbentuk dari danau prasejarah yang mengering, '
+        'meninggalkan lapisan garam yang luas dan datar. '
+        'Dengan luas sekitar 10.582 km², Salar de Uyuni adalah tujuan wisata populer karena pemandangannya yang menakjubkan, '
+        'terutama selama musim hujan ketika permukaannya tertutup air dan menciptakan efek cermin raksasa. '
+        'Selain keindahan alamnya, dataran ini juga kaya akan mineral, '
+        'termasuk lithium, yang penting untuk teknologi modern seperti baterai. '
+        'Salar de Uyuni adalah tempat yang unik dan menakjubkan yang menarik pengunjung dari seluruh dunia.'
+,
         softWrap: true,
       ),
     );
