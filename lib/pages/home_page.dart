@@ -121,6 +121,18 @@ class HomePage extends StatelessWidget {
           );
         },
       ),
+      bottomNavigationBar: Container(
+        padding: const EdgeInsets.all(16.0),
+        color: Theme.of(context).primaryColor, 
+        child: const Text(
+          'Nimas Septiandini - 2341760087',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+      ),
     );
   }
 }
