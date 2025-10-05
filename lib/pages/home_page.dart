@@ -55,9 +55,12 @@ class HomePage extends StatelessWidget {
                 children: [
                   // gambar produk
                   Expanded(
-                    child: Image.asset(
-                      item.imagePath,
-                      fit: BoxFit.cover,
+                    child: Hero(
+                      tag: item.imagePath,
+                      child: Image.asset(
+                        item.imagePath,
+                        fit: BoxFit.cover,
+                      ),     
                     ),
                   ),
                   // detail produk
